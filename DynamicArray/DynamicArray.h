@@ -21,5 +21,9 @@ void remove_by_value(DynamicArray *arr, int value); ///< 按内容删除
 int find(DynamicArray *arr, int value);             ///< 查找
 void print(DynamicArray *arr);                      ///< 打印
 void free_space(DynamicArray *arr);                 ///< 释放内存
+void clear(DynamicArray *arr);                      ///< 清空
+int size(DynamicArray *arr);                        ///< 获得当前大小
+int capacity(DynamicArray *arr);                    ///< 获得容量
+int at(DynamicArray *arr, int);                     ///< 获得指定位置的元素
 
 #endif /* DynamicArray_hpp */

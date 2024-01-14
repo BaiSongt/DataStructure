@@ -1,6 +1,7 @@
 # project
 .vscode/
 build/
+thirdpart/googletest-1.14.0/
 
 # Prerequisites
 *.d
