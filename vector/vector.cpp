@@ -1,3 +1,6 @@
-#include "vector.hpp"
 
-Vector<int> vec;
+#include "vector.h"
+
+Vector<int>;
+Vector<double>;
+// ...
